@@ -10,9 +10,9 @@
    "efeito": "zin"
   },
   {
-   "img": "c02.jpeg",
+   "img": "p_ze.jpeg",
    "dur": 7,
-   "efeito": "pr"
+   "efeito": "pl"
   },
   {
    "img": "p_tiago.jpeg",
@@ -75,9 +75,9 @@
    "efeito": "zin"
   },
   {
-   "img": "c02.jpeg",
+   "img": "c04.jpeg",
    "dur": 7,
-   "efeito": "zin"
+   "efeito": "pl"
   },
   {
    "img": "c05.jpeg",
@@ -167,13 +167,6 @@
  ],
  "textos": [
   {
-   "texto": "CELEIRO SERTANEJO",
-   "inicio": 0.8,
-   "dur": 5,
-   "pos": "topo",
-   "tamanho": 54
-  },
-  {
    "texto": "ÚLTIMA CURTIDA",
    "inicio": 1.5,
    "dur": 5.5,
@@ -187,5 +180,7 @@
    "pos": "baixo",
    "tamanho": 60
   }
- ]
+ ],
+ "marca": "celeiro sertanejo",
+ "visualizador": true
 }

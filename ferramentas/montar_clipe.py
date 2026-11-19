@@ -88,12 +88,32 @@ def main(roteiro_path, saida):
                     f"fontcolor=white:borderw=4:bordercolor=black@0.8:x=(w-text_w)/2:y={y}:"
                     f"enable='between(t,{a},{a+d})':alpha='{alpha}'{lbl}")
         prev = lbl
+    # marca d'água do canal (canto inferior esquerdo)
+    marca = r.get("marca")
+    if marca:
+        filt.append(f"{prev}drawtext=fontfile={FONTE}:text='{marca}':fontsize=44:fontcolor=white@0.9:"
+                    f"shadowcolor=black@0.6:shadowx=2:shadowy=2:x=48:y=h-th-44[mk]")
+        prev = "[mk]"
+    # animação de som (barras de frequência, canto inferior direito)
+    na = len(segs)
+    amap = f"{na}:a"
+    extra = []
+    if r.get("visualizador"):
+        viz = os.path.join(tmp, "viz.mp4")
+        run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "visualizador.py"),
+             musica, viz, str(fps)])
+        extra = ["-i", viz]
+        filt.append(f"[{na+1}:v]format=gray,scale=504:110[m]")
+        filt.append(f"color=c=white:s=504x110:r={fps}[w]")
+        filt.append("[w][m]alphamerge,colorchannelmixer=aa=0.8[viz]")
+        filt.append(f"{prev}[viz]overlay=x=W-w-48:y=H-h-40:shortest=1[vz]")
+        prev = "[vz]"
     filt.append(f"{prev}fade=t=in:st=0:d=1,fade=t=out:st={total-2}:d=2[vout]")
     fscript = os.path.join(tmp, "filtro.txt")
     open(fscript, "w").write(";\n".join(filt))
 
-    run(["ffmpeg", "-v", "error", "-y", *inputs, "-i", musica, "-filter_complex_script", fscript,
-         "-map", "[vout]", "-map", f"{len(segs)}:a", "-t", f"{total:.3f}",
+    run(["ffmpeg", "-v", "error", "-y", *inputs, "-i", musica, *extra, "-filter_complex_script", fscript,
+         "-map", "[vout]", "-map", amap, "-t", f"{total:.3f}",
          "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", saida])
     print("pronto:", saida, f"{total:.1f}s")
