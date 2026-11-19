@@ -108,6 +108,10 @@ def main(roteiro_path, saida):
         filt.append("[w][m]alphamerge,colorchannelmixer=aa=0.8[viz]")
         filt.append(f"{prev}[viz]overlay=x=W-w-48:y=H-h-40:shortest=1[vz]")
         prev = "[vz]"
+    if r.get("legenda"):
+        leg = os.path.join(base, r["legenda"]).replace("\\", "/").replace(":", r"\:").replace("'", r"\'")
+        filt.append(f"{prev}ass='{leg}'[lg]")
+        prev = "[lg]"
     filt.append(f"{prev}fade=t=in:st=0:d=1,fade=t=out:st={total-2}:d=2[vout]")
     fscript = os.path.join(tmp, "filtro.txt")
     open(fscript, "w").write(";\n".join(filt))

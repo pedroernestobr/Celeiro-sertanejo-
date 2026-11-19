@@ -10,7 +10,7 @@
    "efeito": "zin"
   },
   {
-   "img": "p_ze.jpeg",
+   "img": "p_caio.jpeg",
    "dur": 7,
    "efeito": "pl"
   },
@@ -45,12 +45,12 @@
    "efeito": "pr"
   },
   {
-   "img": "p_ze.jpeg",
+   "img": "p_caio.jpeg",
    "dur": 5,
    "efeito": "zout"
   },
   {
-   "img": "c09.jpeg",
+   "img": "c12_palco.jpeg",
    "dur": 8,
    "efeito": "zin"
   },
@@ -125,7 +125,7 @@
    "efeito": "pr"
   },
   {
-   "img": "p_ze.jpeg",
+   "img": "p_caio.jpeg",
    "dur": 8,
    "efeito": "zin"
   },
@@ -150,9 +150,9 @@
    "efeito": "zin"
   },
   {
-   "img": "c09.jpeg",
+   "img": "c12_palco.jpeg",
    "dur": 7,
-   "efeito": "zout"
+   "efeito": "pl"
   },
   {
    "img": "c06.jpeg",
@@ -177,10 +177,11 @@
    "texto": "INSCREVA-SE NO CELEIRO SERTANEJO",
    "inicio": 198,
    "dur": 6,
-   "pos": "baixo",
+   "pos": "topo",
    "tamanho": 60
   }
  ],
  "marca": "celeiro sertanejo",
- "visualizador": true
+ "visualizador": true,
+ "legenda": "legenda.ass"
 }

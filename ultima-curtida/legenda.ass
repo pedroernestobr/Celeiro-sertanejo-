@@ -1,0 +1,66 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Letra,DejaVu Sans,62,&H0000FFFF,&H0000FFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,4,2,2,80,80,170,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:13.83,0:00:17.16,Letra,,0,0,0,,{\fad(150,150)}Eu tava bem, seguindo a vida
+Dialogue: 0,0:00:17.21,0:00:20.72,Letra,,0,0,0,,{\fad(150,150)}Sem procurar saber de você
+Dialogue: 0,0:00:20.87,0:00:22.72,Letra,,0,0,0,,{\fad(150,150)}Até aparecer seu nome
+Dialogue: 0,0:00:22.77,0:00:27.22,Letra,,0,0,0,,{\fad(150,150)}Numa foto que eu postei sem pensar em você
+Dialogue: 0,0:00:27.45,0:00:30.78,Letra,,0,0,0,,{\fad(150,150)}Fazia tempo que você
+Dialogue: 0,0:00:30.85,0:00:34.22,Letra,,0,0,0,,{\fad(150,150)}Não curtia nada por aqui
+Dialogue: 0,0:00:34.47,0:00:36.30,Letra,,0,0,0,,{\fad(150,150)}Eu sei que pode não ser nada
+Dialogue: 0,0:00:36.35,0:00:41.14,Letra,,0,0,0,,{\fad(150,150)}Mas foi o bastante pra mexer comigo
+Dialogue: 0,0:00:41.73,0:00:44.18,Letra,,0,0,0,,{\fad(150,150)}Eu tentei não pensar
+Dialogue: 0,0:00:44.23,0:00:47.96,Letra,,0,0,0,,{\fad(150,150)}Mas comecei a imaginar
+Dialogue: 0,0:00:48.29,0:00:51.56,Letra,,0,0,0,,{\fad(150,150)}Se foi só uma curtida
+Dialogue: 0,0:00:51.61,0:00:54.72,Letra,,0,0,0,,{\fad(150,150)}Ou vontade de voltar
+Dialogue: 0,0:00:57.45,0:00:59.44,Letra,,0,0,0,,{\fad(150,150)}Você curtiu uma foto
+Dialogue: 0,0:00:59.49,0:01:04.14,Letra,,0,0,0,,{\fad(150,150)}Eu descurti a minha paz
+Dialogue: 0,0:01:04.29,0:01:06.36,Letra,,0,0,0,,{\fad(150,150)}Eu tava seguindo em frente
+Dialogue: 0,0:01:06.41,0:01:10.84,Letra,,0,0,0,,{\fad(150,150)}Sem pensar e nem olhar pra trás
+Dialogue: 0,0:01:10.89,0:01:13.00,Letra,,0,0,0,,{\fad(150,150)}Foi só uma curtida
+Dialogue: 0,0:01:13.05,0:01:17.18,Letra,,0,0,0,,{\fad(150,150)}Eu sei que não quer dizer nada
+Dialogue: 0,0:01:17.23,0:01:19.56,Letra,,0,0,0,,{\fad(150,150)}Mas quem já amou alguém
+Dialogue: 0,0:01:19.61,0:01:24.38,Letra,,0,0,0,,{\fad(150,150)}Sabe o perigo de uma curtida inesperada
+Dialogue: 0,0:01:29.83,0:01:32.68,Letra,,0,0,0,,{\fad(150,150)}Depois eu vi seu story
+Dialogue: 0,0:01:32.89,0:01:35.36,Letra,,0,0,0,,{\fad(150,150)}E você também viu o meu
+Dialogue: 0,0:01:35.41,0:01:38.70,Letra,,0,0,0,,{\fad(150,150)}A gente não troca uma palavra
+Dialogue: 0,0:01:38.75,0:01:42.54,Letra,,0,0,0,,{\fad(150,150)}Mas sabe tudo que aconteceu
+Dialogue: 0,0:01:42.59,0:01:45.28,Letra,,0,0,0,,{\fad(150,150)}Você postou aquela música
+Dialogue: 0,0:01:45.33,0:01:49.42,Letra,,0,0,0,,{\fad(150,150)}Que a gente ouvia sem parar
+Dialogue: 0,0:01:49.47,0:01:51.92,Letra,,0,0,0,,{\fad(150,150)}Eu não sei se foi indireta
+Dialogue: 0,0:01:51.97,0:01:56.18,Letra,,0,0,0,,{\fad(150,150)}Mas dessa vez eu preferi não perguntar
+Dialogue: 0,0:01:56.23,0:01:59.46,Letra,,0,0,0,,{\fad(150,150)}Porque eu posso estar errado
+Dialogue: 0,0:01:59.51,0:02:02.92,Letra,,0,0,0,,{\fad(150,150)}E você só quis lembrar
+Dialogue: 0,0:02:03.05,0:02:06.42,Letra,,0,0,0,,{\fad(150,150)}Mas depois daquela curtida
+Dialogue: 0,0:02:06.47,0:02:08.96,Letra,,0,0,0,,{\fad(150,150)}Foi difícil não pensar
+Dialogue: 0,0:02:09.01,0:02:10.96,Letra,,0,0,0,,{\fad(150,150)}Você curtiu uma foto
+Dialogue: 0,0:02:11.01,0:02:15.68,Letra,,0,0,0,,{\fad(150,150)}Eu descurti a minha paz
+Dialogue: 0,0:02:15.85,0:02:17.92,Letra,,0,0,0,,{\fad(150,150)}Eu tava seguindo em frente
+Dialogue: 0,0:02:17.97,0:02:22.38,Letra,,0,0,0,,{\fad(150,150)}Sem pensar e nem olhar pra trás
+Dialogue: 0,0:02:22.43,0:02:24.54,Letra,,0,0,0,,{\fad(150,150)}Foi só uma curtida
+Dialogue: 0,0:02:24.59,0:02:28.72,Letra,,0,0,0,,{\fad(150,150)}Eu sei que não quer dizer nada
+Dialogue: 0,0:02:28.77,0:02:31.12,Letra,,0,0,0,,{\fad(150,150)}Mas quem já amou alguém
+Dialogue: 0,0:02:31.17,0:02:35.92,Letra,,0,0,0,,{\fad(150,150)}Sabe o perigo de uma curtida inesperada
+Dialogue: 0,0:02:38.17,0:02:41.32,Letra,,0,0,0,,{\fad(150,150)}Talvez tenha sido sem querer
+Dialogue: 0,0:02:41.37,0:02:44.68,Letra,,0,0,0,,{\fad(150,150)}Talvez você nem lembre mais
+Dialogue: 0,0:02:44.73,0:02:47.70,Letra,,0,0,0,,{\fad(150,150)}Mas se não significou nada
+Dialogue: 0,0:02:47.75,0:02:51.92,Letra,,0,0,0,,{\fad(150,150)}Por que mexeu tanto comigo assim?
+Dialogue: 0,0:02:53.29,0:02:55.26,Letra,,0,0,0,,{\fad(150,150)}Você curtiu uma foto
+Dialogue: 0,0:02:55.31,0:02:59.54,Letra,,0,0,0,,{\fad(150,150)}Eu descurti a minha paz
+Dialogue: 0,0:03:00.13,0:03:02.20,Letra,,0,0,0,,{\fad(150,150)}Eu tava seguindo em frente
+Dialogue: 0,0:03:02.25,0:03:06.68,Letra,,0,0,0,,{\fad(150,150)}Sem pensar e nem olhar pra trás
+Dialogue: 0,0:03:06.73,0:03:08.82,Letra,,0,0,0,,{\fad(150,150)}Foi só uma curtida
+Dialogue: 0,0:03:08.87,0:03:13.00,Letra,,0,0,0,,{\fad(150,150)}Eu sei que não quer dizer nada
+Dialogue: 0,0:03:13.05,0:03:15.38,Letra,,0,0,0,,{\fad(150,150)}Mas quem já amou alguém
+Dialogue: 0,0:03:15.43,0:03:20.20,Letra,,0,0,0,,{\fad(150,150)}Sabe o perigo de uma curtida inesperada
+Dialogue: 0,0:03:22.15,0:03:25.24,Letra,,0,0,0,,{\fad(150,150)}Última curtida...
+Dialogue: 0,0:03:25.75,0:03:29.40,Letra,,0,0,0,,{\fad(150,150)}E eu pensando em nós dois.
