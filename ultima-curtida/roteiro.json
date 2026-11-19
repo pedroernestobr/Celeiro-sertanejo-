@@ -1,0 +1,191 @@
+{
+ "musica": "musica.mp3",
+ "pasta_imagens": "cenas",
+ "fps": 25,
+ "transicao": 0.6,
+ "cenas": [
+  {
+   "img": "c01.jpeg",
+   "dur": 8,
+   "efeito": "zin"
+  },
+  {
+   "img": "c02.jpeg",
+   "dur": 7,
+   "efeito": "pr"
+  },
+  {
+   "img": "p_tiago.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c03.jpeg",
+   "dur": 6,
+   "efeito": "zout"
+  },
+  {
+   "img": "c04.jpeg",
+   "dur": 6,
+   "efeito": "zin"
+  },
+  {
+   "img": "p_livia.jpeg",
+   "dur": 6,
+   "efeito": "pl"
+  },
+  {
+   "img": "c05.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c04.jpeg",
+   "dur": 8,
+   "efeito": "pr"
+  },
+  {
+   "img": "p_ze.jpeg",
+   "dur": 5,
+   "efeito": "zout"
+  },
+  {
+   "img": "c09.jpeg",
+   "dur": 8,
+   "efeito": "zin"
+  },
+  {
+   "img": "c06.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c03.jpeg",
+   "dur": 7,
+   "efeito": "pl"
+  },
+  {
+   "img": "c01.jpeg",
+   "dur": 8,
+   "efeito": "zout"
+  },
+  {
+   "img": "c07.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c02.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c05.jpeg",
+   "dur": 6,
+   "efeito": "pl"
+  },
+  {
+   "img": "p_livia.jpeg",
+   "dur": 6,
+   "efeito": "zin"
+  },
+  {
+   "img": "p_tiago.jpeg",
+   "dur": 6,
+   "efeito": "pr"
+  },
+  {
+   "img": "c08.jpeg",
+   "dur": 6,
+   "efeito": "zin"
+  },
+  {
+   "img": "c07.jpeg",
+   "dur": 6,
+   "efeito": "pl"
+  },
+  {
+   "img": "c06.jpeg",
+   "dur": 6,
+   "efeito": "pr"
+  },
+  {
+   "img": "c05.jpeg",
+   "dur": 6,
+   "efeito": "zout"
+  },
+  {
+   "img": "c09.jpeg",
+   "dur": 8,
+   "efeito": "pl"
+  },
+  {
+   "img": "c08.jpeg",
+   "dur": 8,
+   "efeito": "pr"
+  },
+  {
+   "img": "p_ze.jpeg",
+   "dur": 8,
+   "efeito": "zin"
+  },
+  {
+   "img": "p_tiago.jpeg",
+   "dur": 7,
+   "efeito": "zout"
+  },
+  {
+   "img": "c01.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c10.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c11.jpeg",
+   "dur": 7,
+   "efeito": "zin"
+  },
+  {
+   "img": "c09.jpeg",
+   "dur": 7,
+   "efeito": "zout"
+  },
+  {
+   "img": "c06.jpeg",
+   "dur": 7,
+   "efeito": "zout"
+  },
+  {
+   "img": "c11.jpeg",
+   "dur": 6,
+   "efeito": "zout"
+  }
+ ],
+ "textos": [
+  {
+   "texto": "CELEIRO SERTANEJO",
+   "inicio": 0.8,
+   "dur": 5,
+   "pos": "topo",
+   "tamanho": 54
+  },
+  {
+   "texto": "ÚLTIMA CURTIDA",
+   "inicio": 1.5,
+   "dur": 5.5,
+   "pos": "baixo",
+   "tamanho": 96
+  },
+  {
+   "texto": "INSCREVA-SE NO CELEIRO SERTANEJO",
+   "inicio": 198,
+   "dur": 6,
+   "pos": "baixo",
+   "tamanho": 60
+  }
+ ]
+}
